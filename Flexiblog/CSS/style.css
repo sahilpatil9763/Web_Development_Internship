@@ -1,0 +1,4680 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+   font-family: 'Open Sans',serif;
+   background: #f8f8f8;
+}
+
+/* Logo */
+
+.logo img{
+    margin-top: 32px;
+    margin-left: 184px;
+}
+
+.topnav {
+    overflow: hidden;
+    margin-left: 550px;
+    margin-top: -35px;
+  }
+  
+  .topnav a {
+    display: inline-block;
+    color: #697381;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: -50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+  }
+    
+  .topnav input[type=text] {
+    float: center;
+    padding: 6px;
+    background-color: #E2E8F0;
+    border-radius: 3px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 115px;
+    width: 306px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+  .topnav img {
+    position: absolute;
+    left: 38.89%;
+    right: 59.71%;
+    top: 0.59%;
+    bottom: 99.19%;
+    height: 10px;
+    width: 10px;
+  }
+
+  .background{
+    position: absolute;
+    width: 1517px;
+    height: 949px;
+    left: 0px;
+
+    top: 106px;
+
+    background: #F1F4F7;
+  }
+
+  .cards a{
+      display: inline-block;
+  }
+
+  .cards .card-1 {
+    position: absolute;
+    width: 241px;
+    height: 94px;
+    left: 179px;
+    top: 60px;
+    
+    background: #FFFFFF;
+    border-radius: 15px;
+  }
+
+  .cards .card-1 .icon-1 svg{
+    position: absolute;
+left: 103px;
+top: 18px;  
+  }
+
+  .cards .card-1 .info-1 {
+    position: absolute;
+    width: 216px;
+    height: 18px;
+    left: 35px;
+    top: 55px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    
+    color: #9EA8B8;    
+  }
+
+  .cards .card-2{
+    position: absolute;
+    width: 241px;
+    height: 94px;
+    left: 459px;
+    top: 60px;
+    
+    background: #FFFFFF;
+    border-radius: 15px;
+  }
+
+  .cards .card-2 .icon-2 svg {
+    position: absolute;
+    
+    left: 103px;
+    top: 18px;
+  }
+
+  .cards .card-2 .info-2 {
+    position: absolute;
+    width: 126px;
+    height: 18px;
+    left: 71px;
+    top: 55px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    
+    color: #9EA8B8;
+  }
+
+  .cards .card-3{
+    position: absolute;
+    width: 241px;
+    height: 94px;
+    left: 739px;
+    top: 60px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+  }
+
+  .cards .card-3 .icon-3 svg {
+    position: absolute;
+    left: 110px;
+    top: 18px;
+  }
+
+  .cards .card-3 .info-3{
+    position: absolute;
+    width: 57px;
+    height: 18px;
+    left: 102px;
+    top: 55px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #9EA8B8;
+  }
+
+  .cards .card-4{
+    position: absolute;
+    width: 241px;
+    height: 94px;
+    left: 1020px;
+    top: 60px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+  }
+
+  .cards .card-4 .icon-4 svg {
+    position: absolute;
+    left: 110px;
+    top: 18px;    
+  }
+
+  .cards .card-4 .info-4{
+    position: absolute;
+    width: 216px;
+    height: 18px;
+    left: 40px;
+    top: 55px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #9EA8B8;
+  }
+
+  /* Blog Card */
+
+  .blog button{
+    position: absolute;
+    width: 90px;
+    height: 27px;
+    left: 183px;
+    top: 284px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 10px;
+    line-height: 12px;
+    border: none;
+    color: rgba(0, 0, 0, 0.52);
+    background: #C0E3F8;
+    border-radius: 5px;
+  }
+
+  .blog .text-1 p{
+    position: absolute;
+    width: 585px;
+    height: 180px;
+    left: 182px;
+    top: 326px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    
+    color: rgba(0, 0, 0, 0.73);
+  }
+
+  .blog .text-2 p {
+    position: absolute;
+    width: 678px;
+    height: 48px;
+    left: 184px;
+    top: 536px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #98A3B4;
+  }
+
+  .blog img {
+    position: absolute;
+    width: 337px;
+    height: 410px;
+    left: 921px;
+    top: 217px;
+    
+    border-radius: 0px 50px 50px 50px;
+  }
+
+  .blog .side-box-1{
+    position: absolute;
+    width: 122px;
+    height: 54px;
+    left: 1392px;
+    top: 370px;
+    
+    background: #FFFFFF;
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .blog .side-box-1 p {
+    position: absolute;
+    width: 64px;
+    height: 19px;
+    left: 51px;
+    top: 18px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    color: #888888;
+  }
+
+  .blog .side-box-2 {
+    position: absolute;
+    width: 122px;
+    height: 54px;
+    left: 1392px;
+    top: 437px;
+
+    background: #FFFFFF;
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .blog .side-box-2 p {
+    position: absolute;
+    width: 84px;
+    height: 19px;
+    left: 43px;
+    top: 18px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #888888;   
+  }
+
+  .blog-card .bg-card-1 {
+    position: absolute;
+    width: 327px;
+    height: 156px;
+    left: 183px;
+    top: 690px;
+    
+    background: #C0E3F8;
+    border-radius: 10px;
+  }
+
+  .blog-card .bg-card-2 {
+    position: absolute;
+    width: 327px;
+    height: 156px;
+    left: 554px;
+    top: 690px;
+    
+    background: #C0E3F8;
+    border-radius: 10px;
+  }  
+
+  .blog-card .bg-card-3 {
+    position: absolute;
+    width: 327px;
+    height: 156px;
+    left: 925px;
+    top: 690px;
+    
+    background: #C0E3F8;
+    border-radius: 10px;
+  }
+
+  .blog-card .blog-card-1 {
+    position: absolute;
+    width: 327px;
+    height: 156px;
+    left: 189px;
+    top: 690px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .blog-card .blog-card-2 {
+    position: absolute;
+    width: 327px;
+    height: 156px;
+    left: 560px;
+    top: 690px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .blog-card .blog-card-3 {
+    position: absolute;
+    width: 327px;
+    height: 156px;
+    left: 931px;
+    top: 690px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .blog-card-1 img {
+    position: absolute;
+    width: 110px;
+    height: 141px;
+    left: 10px;
+    top: 10px;
+    
+    border-radius: 5px;
+  } 
+
+  .blog-card-1 p {
+    position: absolute;
+    width: 159px;
+    height: 76px;
+    left: 134px;
+    top: 29px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: rgba(0, 0, 0, 0.73);
+  }
+
+  .blog-card-1 p1 {
+    position: absolute;
+    width: 55px;
+    height: 12px;
+    left: 134px;
+    top: 113px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.61);
+  }
+  
+  .blog-card-1 p2 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 192px;
+    top: 113px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .blog-card-1 svg {
+    position: absolute;
+    
+    left: 255px;
+    top: 113px;
+    
+  }
+
+  .blog-card-1 p3 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 273px;
+    top: 113px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .blog-card-2 img {
+    position: absolute;
+    width: 110px;
+    height: 141px;
+    left: 10px;
+    top: 10px;
+    border-radius: 5px;
+  }
+
+  .blog-card-2 p {
+    position: absolute;
+    width: 154px;
+    height: 57px;
+    left: 134px;
+    top: 29px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: rgba(0, 0, 0, 0.73);
+  }
+
+  .blog-card-2 p1 {
+    position: absolute;
+    width: 56px;
+    height: 12px;
+    left: 137px;
+    top: 113px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.79);
+  }
+  
+  .blog-card-2 p2 {
+    position: absolute;
+    width: 68px;
+    height: 12px;
+    left: 190px;
+    top: 113px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .blog-card-2 svg {
+    position: absolute;
+    
+    left: 255px;
+    top: 113px;
+    
+  }
+
+  .blog-card-2 p3 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 271px;
+    top: 113px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .blog-card-3 img {
+    position: absolute;
+    width: 110px;
+    height: 141px;
+    left: 10px;
+    top: 10px;
+    border-radius: 5px;
+  }
+
+  .blog-card-3 p {
+    position: absolute;
+    width: 177px;
+    height: 57px;
+    left: 134px;
+    top: 29px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: rgba(0, 0, 0, 0.73);
+  }
+
+  .blog-card-3 p1 {
+    position: absolute;
+    width: 58px;
+    height: 12px;
+    left: 134px;
+    top: 113px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.79);
+  }
+
+    .blog-card-3 p2 {
+        position: absolute;
+        width: 65px;
+        height: 12px;
+        left: 192px;
+        top: 113px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+
+        color: rgba(0, 0, 0, 0.38);
+    } 
+    
+    .blog-card-3 svg {
+        position: absolute;
+        
+        left: 255px;
+        top: 113px;
+        
+      }
+
+  .blog-card-3 p3 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 271px;
+    top: 113px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .rectangle-1 {
+    position: absolute;
+    width: 3px;
+    height: 25px;
+    left: 183px;
+    top: 1107px;
+    
+    background: #C4C4C4;
+  }
+
+  .rectangle-1 p {
+    position: absolute;
+    width: 154px;
+    height: 30px;
+    left: 9px;
+    top: 0px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+
+  .box-1 {
+    position: absolute;
+    width: 328px;
+    height: 329px;
+    left: 183px;
+    top: 1210px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .box-1 button {
+    position: absolute;
+    width: 142px;
+    height: 28px;
+    left: 19px;
+    top: 29px;
+    border: none;
+    background: #C6F6D5;
+    border-radius: 5px;
+  }
+
+  .box-1 p {
+    position: absolute;
+    width: 286px;
+    height: 46px;
+    left: 21px;
+    top: 72px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: rgba(0, 0, 0, 0.73);
+  }
+
+  .box-1 p1 {
+    position: absolute;
+    width: 296px;
+    height: 54px;
+    left: 21px;
+    top: 137px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: rgba(0, 0, 0, 0.76);
+  }
+
+  .box-1 p2 {
+    position: absolute;
+    width: 55px;
+    height: 12px;
+    left: 85px;
+    top: 267px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.61);
+  }
+  .box-1 svg {
+    position: absolute;
+    
+    left: 149px;
+    top: 287px;
+  }
+
+  .box-1 p3 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 85px;
+    top: 286px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .box-1 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 166px;
+    top: 286px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .box-1 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 254px;
+    border-radius: 100%;
+  }
+
+  .box-2 {
+    position: absolute;
+    width: 328px;
+    height: 329px;
+    left: 556px;
+    top: 1210px;
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .box-2 button {
+    position: absolute;
+    width: 142px;
+    height: 28px;
+    left: 32px;
+    top: 30px;
+    border: none;
+    background: #C6F6D5;
+    border-radius: 5px;
+  }
+
+  .box-2 p {
+    position: absolute;
+    width: 286px;
+    height: 82px;
+    left: 24px;
+    top: 85px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: rgba(0, 0, 0, 0.73);
+  }
+
+  .box-2 p1 {
+    position: absolute;
+    width: 296px;
+    height: 54px;
+    left: 24px;
+    top: 177px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: rgba(0, 0, 0, 0.76);
+  }
+
+  .box-2 p2{
+    position: absolute;
+    width: 56px;
+    height: 12px;
+    left: 102px;
+    top: 264px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.61);
+  }
+  .box-2 svg {
+    position: absolute;
+    
+    left: 149px;
+    top: 287px;
+  }
+
+  .box-2 p3 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 102px;
+    top: 283px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .box-2 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 183px;
+    top: 284px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .box-2 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 24px;
+    top: 254px;
+    border-radius: 100%;
+  }
+
+  .box-3 {
+    position: absolute;
+    width: 328px;
+    height: 329px;
+    left: 926px;
+    top: 1210px;
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .box-3 button {
+    position: absolute;
+    width: 142px;
+    height: 28px;
+    left: 27px;
+    top: 30px;
+    border: none;
+    background: #FEFCBF;
+    border-radius: 5px;
+  }
+
+  .box-3 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 24px;
+    top: 254px;
+    border-radius: 100%;
+  }
+
+  .box-3 p {
+    position: absolute;
+    width: 266px;
+    height: 82px;
+    left: 29px;
+    top: 85px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: rgba(0, 0, 0, 0.73);
+  }
+
+  .box-3 p1 {
+    position: absolute;
+    width: 296px;
+    height: 54px;
+    left: 21px;
+    top: 182px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(0, 0, 0, 0.76);
+  }
+
+  .box-3 p2 {
+    position: absolute;
+    width: 55px;
+    height: 12px;
+    left: 98px;
+    top: 262px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.61);
+  }
+
+  .box-3 svg {
+    position: absolute;
+    
+    left: 149px;
+    top: 287px;
+  }
+
+  .box-3 p3 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 98px;
+    top: 281px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .box-3 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 179px;
+    top: 281px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .rectangle-2{
+    position: absolute;
+    width: 3px;
+    height: 25px;
+    left: 183px;
+    top: 1587px;
+    
+    background: #C4C4C4;
+  }
+
+  .rectangle-2 p {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 7px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: #000000;
+  }
+
+  .section-4 .box1 img{
+    position: absolute;
+    width: 328px;
+    height: 280px;
+    left: 183px;
+    top: 1690px;
+    border-radius: 10px;
+  }
+
+  .section-4 .box1 button {
+    position: absolute;
+    width: 142px;
+    height: 28px;
+    left: 211px;
+    top: 1712px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    background: #FEFCBF;
+    border-radius: 5px;
+  }
+
+  .section-4 .box1 p {
+    position: absolute;
+    width: 286px;
+    height: 76px;
+    left: 210px;
+    top: 1752px;
+    color: #FFFFFF;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .section-4 .box1 p1 {
+    position: absolute;
+    width: 55px;
+    height: 12px;
+    left: 279px;
+    top: 1874px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #FFFFFF;
+  }
+
+  .section-4 .box1 p2 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 279px;
+    top: 1893px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #758294;
+  }
+
+  .section-4 .box1 p3 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 360px;
+    top: 1893px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #758294;    
+  }
+
+  .section-4 .a-img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 206px;
+    top: 1865px;
+    border-radius: 100%;
+    background: #C4C4C4;
+  }
+
+  .section-4 .a-img img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 6px;
+    top: 3px;
+    border-radius: 100%;
+  }
+
+  .section-4 .box2 {
+    width: 328px;
+    height: 572px;
+    margin-left: 564px;
+    margin-top: 1310px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .section-4 .box2 img {
+    width: 312px;
+    height: 226px;
+    margin-left: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+
+  .box2 button {
+    width: 77px;
+    height: 24px;
+    margin-left: 40px;
+    margin-top: 29px;
+    border: none;
+    background: #E9D8FD;
+    border-radius: 5px;
+  }
+
+  .box2 p {
+    width: 286px;
+    height: 56px;
+    margin-left: 28px;
+    margin-top: 9px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #000000;    
+  }
+
+  .box2 p1 {
+    width: 296px;
+    height: 54px;
+    margin-left: 22px;
+    margin-top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(0, 0, 0, 0.76);
+  }
+
+  .box2 .a-img {
+    width: 56px;
+    height: 56px;
+    left: 578px;
+    top: 2166px;
+    background: #C4C4C4;
+  }
+
+  .box2 .a-img .a-img1 {
+    width: 48px;
+    height: 48px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 100%;
+  }
+
+  .box2 .p {
+      margin-top: 90px;
+  }
+
+  .box2 p2 {
+    width: 56px;
+    height: 12px;
+    margin-left: 86px;
+    top: 50px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #888888;
+  }
+
+  .box2 .p3 {
+    width: 56px;
+    height: 12px;
+    left: 642px;
+    margin-top: 2183px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #888888;
+  }
+
+  .box2 .p4 {
+    width: 25px;
+    height: 12px;
+    left: 723px;
+    top: 2202px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #758294;
+  }
+
+  .box2 .c-bg-1 {
+    position: absolute;
+    width: 327px;
+    height: 158px;
+    left: 923px;
+    top: 1692px;
+
+    background: #C0E3F8;
+    border-radius: 10px;
+  }
+
+  .box2 .c-bg-2 {
+    position: absolute;
+    width: 327px;
+    height: 158px;
+    left: 929px;
+    top: 1692px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .c-bg-2 button {
+    width: 142px;
+    height: 28px;
+    margin-left: 146px;
+    margin-top: 11px;
+    
+    background: #C6F6D5;
+    border-radius: 5px;
+  }
+
+  .section-4 .bg .c-bg-2 img {
+    position: absolute;
+    width: 110px;
+    height: 141px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+  }
+
+  .section-4 .bg .c-bg-2 p {
+    position: absolute;
+    width: 177px;
+    height: 57px;
+    left: 118px;
+    top: 45px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: rgba(0, 0, 0, 0.73);
+  }
+
+  .section-4 .bg .c-bg-2 p1 {
+    position: absolute;
+    width: 58px;
+    height: 12px;
+    left: 124px;
+    top: 100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.79);
+  }
+
+  .section-4 .bg .c-bg-2 p2 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 116px;
+    top: 120px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .section-4 .bg .c-bg-2 svg {
+    position: absolute;
+    
+    left: 0px;
+    top: 0px;
+  }
+
+  .section-4 .bg .c-bg-2 p3 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 270px;
+    top: 120px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .box2 .bg .c-bg-3 {
+    position: absolute;
+    width: 327px;
+    height: 159px;
+    left: 923px;
+    top: 1901px;
+    
+    background: #C0E3F8;
+    border-radius: 10px;
+  }
+
+  .box2 .bg .c-bg-4 {
+    position: absolute;
+    width: 327px;
+    height: 159px;
+    left: 929px;
+    top: 1901px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .box2 .bg .c-bg-4 button {
+    position: absolute;
+    width: 142px;
+    height: 28px;
+    left: 102px;
+    top: -18px;
+    
+    background: #C6F6D5;
+    border-radius: 5px;
+  }
+
+  .box2 .bg .c-bg-4 img {
+    position: absolute;
+    width: 110px;
+    height: 141px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+  }
+
+  .box2 .bg .c-bg-4 p {
+    position: absolute;
+    width: 158px;
+    height: 76px;
+    left: 117px;
+    top: 40px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: rgba(0, 0, 0, 0.73);
+  }
+
+  .box2 .bg .c-bg-4 p1 {
+    position: absolute;
+    width: 46px;
+    height: 12px;
+    left: 120px;
+    top: 110px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.79);
+  }
+
+  .box2 .bg .c-bg-4 p2 {
+    position: absolute;
+    width: 68px;
+    height: 12px;
+    left: 100px;
+    top: 131px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .box2 .bg .c-bg-4 p3 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 270px;
+    top: 131px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .box2 .bg .c-bg-5 {
+    position: absolute;
+    width: 327px;
+    height: 158px;
+    left: 924px;
+    top: 2106px;
+    
+    background: #C0E3F8;
+    border-radius: 10px;
+  }
+
+  .box2 .bg .c-bg-6 {
+    position: absolute;
+    width: 327px;
+    height: 158px;
+    left: 930px;
+    top: 2106px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .box2 .bg .c-bg-6 img {
+    position: absolute;
+    width: 110px;
+    height: 141px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+  }
+
+  .box2 .bg .c-bg-6 button {
+    position: absolute;
+    width: 142px;
+    height: 28px;
+    left: 100px;
+    top: -17px;
+    
+    background: #C6F6D5;
+    border-radius: 5px;
+  }
+
+  .box2 .bg .c-bg-6 p {
+    position: absolute;
+    width: 152px;
+    height: 57px;
+    left: 115px;
+    top: 40px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: rgba(0, 0, 0, 0.73);
+  }
+
+  .box2 .bg .c-bg-6 p1 {
+    position: absolute;
+    width: 55px;
+    height: 12px;
+    left: 120px;
+    top: 100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.61);    
+  }
+
+  .box2 .bg .c-bg-6 p2 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 110px;
+    top: 120px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .box2 .bg .c-bg-6 p3 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 265px;
+    top: 120px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .box2 .bg .c-bg-7 img {
+    position: absolute;
+    width: 328px;
+    height: 280px;
+    left: 175px;
+    top: 1984px;
+    border-radius: 10px;
+  }
+
+  .box2 .bg .c-bg-7 button {
+    position: absolute;
+    width: 87px;
+    height: 28px;
+    left: 175px;
+    top: 1993px;
+    
+    background: #BEE3F8;
+    border-radius: 5px;
+  }
+
+  .box2 .bg .c-bg-7 p {
+    position: absolute;
+    width: 226px;
+    height: 76px;
+    left: 190px;
+    top: 2053px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+  } 
+
+  .box2 .bg .c-bg-7 .b-img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 210px;
+    top: 2153px;
+    border-radius: 100%;
+    background: #C4C4C4;
+  }
+  
+  .box2 .bg .c-bg-7 .b-img img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: -3px;
+    top: 0px;
+    border-radius: 100%;
+  }
+
+  .box2 .bg .c-bg-7 p1 {
+    position: absolute;
+    width: 56px;
+    height: 12px;
+    left: 255px;
+    top: 2150px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #FFFFFF;    
+  }
+
+  .box2 .bg .c-bg-7 p2 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 191px;
+    top: 2189px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #758294;
+  }
+
+  .box2 .bg .c-bg-7 p3 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 355px;
+    top: 2189px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #758294;    
+  }
+
+  .f-bg img {
+    position: absolute;
+    width: 1460px;
+    height: 453px;
+    left: 30px;
+    top: 2322px;
+    border-radius: 20px;
+  }
+
+  .f-bg .bg-1 {
+    position: absolute;
+    width: 550px;
+    height: 225px;
+    left: 500px;
+    top: 2460px;
+    
+    background: #FFFFFF;
+    border-radius: 30px;
+  }
+
+  .f-bg .bg-1 button {
+    position: absolute;
+    width: 142px;
+    height: 28px;
+    left: 215px;
+    top: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    border: none;
+    background: #FEFCBF;
+    border-radius: 5px;
+  }
+
+  .f-bg .bg-1 p {
+    position: absolute;
+    width: 361px;
+    height: 48px;
+    left: 98px;
+    top: 68px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #758294;
+  }
+
+  .f-bg .c-img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 221px;
+    top: 136px;
+    background: #C4C4C4;
+    border-radius: 100%;
+  }
+
+  .f-bg .c-img img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 5px;
+    top: 4px;
+    border-radius: 100%;
+  }
+
+  .f-bg .bg-1 p1 {
+    position: absolute;
+    width: 46px;
+    height: 12px;
+    left: 391px;
+    top: 153px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #888888;
+  }
+
+  .f-bg .circle-1 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 300px;
+    top: 258px;
+    border-radius: 100%;
+    background: #FFFFFF;
+  }
+
+  .f-bg .circle-2 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 230px;
+    top: 258px;
+    border-radius: 100%;
+    background: #FFFFFF;
+  }
+
+  .rectangle-3 {
+    position: absolute;
+    width: 3px;
+    height: 25px;
+    left: 184px;
+    top: 2832px;
+    
+    background: #C4C4C4;
+  }
+
+  .rectangle-3 p {
+    position: absolute;
+    width: 288px;
+    height: 30px;
+    left: 8px;
+    top: -1px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+  }
+
+  .sec-6 .card1 {
+    position: absolute;
+    width: 328px;
+    height: 519px;
+    left: 183px;
+    top: 2927px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .sec-6 .card1 img {
+    position: absolute;
+    width: 312px;
+    height: 226px;
+    left: 9px;
+    top: 7px;
+    border-radius: 10px;
+  }
+
+  .sec-6 .card1 p {
+    position: absolute;
+    width: 286px;
+    height: 56px;
+    left: 21px;
+    top: 256px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #000000;
+  }
+
+  .sec-6 .card1 p1{
+    position: absolute;
+    width: 271px;
+    height: 75px;
+    left: 23px;
+    top: 324px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    /* or 192% */
+    color: rgba(0, 0, 0, 0.76);
+  }
+
+  .sec-6 .card1 .img1 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 463px;
+    border-radius: 100%;
+  }
+
+  .sec-6 .card1 p2 {
+    position: absolute;
+    width: 58px;
+    height: 12px;
+    left: 80px;
+    top: 475px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.61);
+  }
+
+  .sec-6 .card1 p3 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 80px;
+    top: 490px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .sec-6 .card1 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 150px;
+    top: 490px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .sec-6 .card2 {
+    position: absolute;
+    width: 328px;
+    height: 519px;
+    left: 554px;
+    top: 2927px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.sec-6 .card2 img {
+    position: absolute;
+    width: 312px;
+    height: 226px;
+    left: 8px;
+    top: 8px;
+    border-radius: 10px;
+}
+
+.sec-6 .card2 p {
+    position: absolute;
+    width: 286px;
+    height: 76px;
+    left: 20px;
+    top: 250px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.sec-6 .card2 p1 {
+    position: absolute;
+    width: 252px;
+    height: 75px;
+    left: 18px;
+    top: 343px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    /* or 192% */
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-6 .card2 .img2 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 20px;
+    top: 458px;
+    border-radius: 100%;
+}
+
+.sec-6 .card2 p2 {
+    position: absolute;
+    width: 46px;
+    height: 12px;
+    left: 83px;
+    top: 470px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-6 .card2 p3 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 83px;
+    top: 485px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-6 .card2 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 160px;
+    top: 485px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-6 .card3 {
+    position: absolute;
+    width: 328px;
+    height: 519px;
+    left: 930px;
+    top: 2930px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.sec-6 .card3 img {
+    position: absolute;
+    width: 312px;
+    height: 226px;
+    left: 8px;
+    top: 7x;
+    border-radius: 10px;
+}
+
+.sec-6 .card3 p {
+    position: absolute;
+    width: 286px;
+    height: 56px;
+    left: 27px;
+    top: 249px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.sec-6 .card3 p1 {
+    position: absolute;
+    width: 257px;
+    height: 75px;
+    left: 31px;
+    top: 320px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    /* or 192% */
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-6 .card3 .img3 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 456px;
+    border-radius: 100%;
+}
+
+.sec-6 .card3 p2 {
+    position: absolute;
+    width: 55px;
+    height: 12px;
+    left: 85px;
+    top: 470px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-6 .card3 p3 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 85px;
+    top: 485px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-6 .card3 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 160px;
+    top: 485px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-6 .card4 {
+    position: absolute;
+    width: 328px;
+    height: 519px;
+    left: 183px;
+    top: 3462px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.sec-6 .card4 img {
+    position: absolute;
+    width: 312px;
+    height: 226px;
+    left: 8px;
+    top: 7px;
+    border-radius: 10px;
+}
+
+.sec-6 .card4 p {
+    position: absolute;
+    width: 237px;
+    height: 75px;
+    left: 21px;
+    top: 256px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.sec-6 .card4 p1 {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 21px;
+    top: 340px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-6 .card4 .img4 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 440px;
+    border-radius: 100%;
+}
+
+.sec-6 .card4 p2 {
+    position: absolute;
+    width: 58px;
+    height: 12px;
+    left: 80px;
+    top: 450px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-6 .card4 p3 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 80px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-6 .card4 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 160px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-6 .card5 {
+    position: absolute;
+    width: 328px;
+    height: 519px;
+    left: 562px;
+    top: 3462px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.sec-6 .card5 img {
+    position: absolute;
+    width: 312px;
+    height: 226px;
+    left: 7px;
+    top: 8px;
+    border-radius: 10px;
+}
+
+.sec-6 .card5 p {
+    position: absolute;
+    width: 286px;
+    height: 56px;
+    left: 21px;
+    top: 254px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.sec-6 .card5 p1 {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 21px;
+    top: 335px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-6 .card5 .img5 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 440px;
+    border-radius: 100%;
+}
+
+.sec-6 .card5 p2 {
+    position: absolute;
+    width: 58px;
+    height: 12px;
+    left: 80px;
+    top: 450px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-6 .card5 p3 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 80px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-6 .card5 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 160px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-6 .card6 {
+    position: absolute;
+    width: 328px;
+    height: 519px;
+    left: 930px;
+    top: 3462px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.sec-6 .card6 img {
+    position: absolute;
+    width: 312px;
+    height: 226px;
+    left: 8px;
+    top: 7px;
+    border-radius: 10px;
+}
+
+.sec-6 .card6 p {
+    position: absolute;
+    width: 255px;
+    height: 56px;
+    left: 21px;
+    top: 250px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.sec-6 .card6 p1 {
+    position: absolute;
+    width: 248px;
+    height: 75px;
+    left: 22px;
+    top: 339px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-6 .card6 .img5 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 436px;
+    border-radius: 100%;
+}
+
+.sec-6 .card6 p2 {
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    left: 80px;
+    top: 450px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-6 .card6 p3 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 80px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-6 .card6 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 160px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.rectangle-4 {
+    position: absolute;
+    width: 3px;
+    height: 25px;
+    left: 183px;
+    top: 4042px;
+
+    background: #C4C4C4;
+}
+
+.rectangle-4 p {
+    position: absolute;
+    width: 285px;
+    height: 30px;
+    left: 9px;
+    top: -1px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.sec-7 .card1 {
+    position: absolute;
+    width: 527px;
+    height: 312px;
+    left: 183px;
+    top: 4133px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.sec-7 .card1 img {
+    position: absolute;
+    width: 200px;
+    height: 274px;
+    left: 8px;
+    top: 8px;
+    border-radius: 5px;
+}
+
+.sec-7 .card1 p {
+    position: absolute;
+    width: 236px;
+    height: 113px;
+    left: 238px;
+    top: 10px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.sec-7 .card1 p1 {
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    left: 236px;
+    top: 156px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-7 .card2 {
+    position: absolute;
+    width: 528px;
+    height: 312px;
+    left: 730px;
+    top: 4133px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.sec-7 .card2 img {
+    position: absolute;
+    width: 200px;
+    height: 274px;
+    left: 8px;
+    top: 8px;
+    border-radius: 5px;
+}
+
+.sec-7 .card2 p {
+    position: absolute;
+width: 224px;
+height: 83px;
+left: 230px;
+top: 8px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+
+color: #000000;
+}
+
+.sec-7 .card2 p1 {
+    position: absolute;
+    width: 264px;
+    height: 75px;
+    left: 230px;
+    top: 133px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-7 .card2 .img2 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 249px;
+    top: 232px;
+    border-radius: 100%;
+}
+
+.sec-7 .card2 p2 {
+    position: absolute;
+    width: 66px;
+    height: 12px;
+    left: 313px;
+    top: 245px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-7 .card2 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 313px;
+top: 264px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-7 .card2 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 380px;
+    top: 264px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-7 .card3 {
+    position: absolute;
+    width: 527px;
+    height: 312px;
+    left: 183px;
+    top: 4464px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.sec-7 .card3 img {
+    position: absolute;
+    width: 200px;
+    height: 274px;
+    left: 8px;
+    top: 8px;
+    border-radius: 5px;
+}
+
+.sec-7 .card3 p {
+    position: absolute;
+    width: 246px;
+    height: 113px;
+    left: 238px;
+    top: 10px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.sec-7 .card3 p1 {
+    position: absolute;
+width: 264px;
+height: 75px;
+left: 238px;
+top: 146px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-7 .card3 .img3 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 238px;
+    top: 237px;
+    border-radius: 100%;
+}
+
+.sec-7 .card3 p2 {
+    position: absolute;
+    width: 86px;
+    height: 12px;
+    left: 300px;
+    top: 250px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-7 .card3 p3 {
+    position: absolute;
+width: 86px;
+height: 12px;
+left: 300px;
+top: 270px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-7 .card3 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 375px;
+    top: 270px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-7 .card4 {
+    position: absolute;
+    width: 527px;
+    height: 312px;
+    left: 731px;
+    top: 4464px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+} 
+
+.sec-7 .card4 img {
+    position: absolute;
+width: 200px;
+height: 274px;
+left: 8px;
+top: 8px;
+border-radius: 5px;
+}
+
+.sec-7 .card4 p {
+    position: absolute;
+width: 246px;
+height: 113px;
+left: 238px;
+top: 10px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.sec-7 .card4 p1 {
+    position: absolute;
+width: 264px;
+height: 75px;
+left: 238px;
+top: 138px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-7 .card4 .img3 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 238px;
+    top: 232px;
+    border-radius:  100%;
+}
+
+.sec-7 .card4 p2 {
+    position: absolute;
+width: 58px;
+height: 12px;
+left: 300px;
+top: 240px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-7 .card4 p3 {
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    left: 300px;
+    top: 260px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-7 .card4 p4 {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 370px;
+    top: 260px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-7 .card5 {
+    position: absolute;
+    width: 527px;
+    height: 312px;
+    left: 183px;
+    top: 4795px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.sec-7 .card5 img {
+    position: absolute;
+    width: 200px;
+    height: 274px;
+    left: 8px;
+    top: 8px;
+    border-radius: 5px;
+}
+
+.sec-7 .card5 p {
+    position: absolute;
+width: 246px;
+height: 113px;
+left: 238px;
+top: 10px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.sec-7 .card5 p1 {
+    position: absolute;
+width: 264px;
+height: 75px;
+left: 240px;
+top: 120px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-7 .card5 .img4 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 238px;
+    top: 232px;
+    border-radius: 100%;
+} 
+
+.sec-7 .card5 p2 {
+    position: absolute;
+width: 66px;
+height: 12px;
+left: 302px;
+top: 244px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-7 .card5 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 302px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-7 .card5 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 380px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-7 .card6 {
+    position: absolute;
+width: 527px;
+height: 312px;
+left: 730px;
+top: 4795px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-7 .card6 img {
+    position: absolute;
+    width: 200px;
+    height: 274px;
+    left: 8px;
+    top: 8px;
+    border-radius: 5px;
+}
+
+.sec-7 .card6 p {
+    position: absolute;
+width: 246px;
+height: 113px;
+left: 238px;
+top: 8px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.sec-7 .card6 p1 {
+    position: absolute;
+width: 264px;
+height: 75px;
+left: 240px;
+top: 120px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-7 .card6 .img4 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 238px;
+    top: 232px;
+    border-radius: 100%;
+}
+
+.sec-7 .card6 p2 {
+    position: absolute;
+width: 66px;
+height: 12px;
+left: 302px;
+top: 244px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-7 .card6 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 302px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-7 .card6 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 380px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.rectangle-5 {
+    position: absolute;
+width: 3px;
+height: 25px;
+left: 184px;
+top: 5138px;
+
+background: #C4C4C4;
+}
+
+.rectangle-5 p {
+    position: absolute;
+width: 72px;
+height: 30px;
+left: 8px;
+top: -2px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #000000;
+}
+
+.sec-8 .card1 {
+    position: absolute;
+width: 328px;
+height: 519px;
+left: 183px;
+top: 5206px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-8 .card1 img {
+    position: absolute;
+width: 312px;
+height: 226px;
+left: 8px;
+top: 8px;
+border-radius: 10px;
+}
+
+.sec-8 .card1 p {
+    position: absolute;
+width: 286px;
+height: 56px;
+left: 21px;
+top: 265px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+}
+
+.sec-8 .card1 p1 {
+    position: absolute;
+    width: 248px;
+    height: 75px;
+    left: 22px;
+    top: 339px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-8 .card1 .img1 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 440px;
+    border-radius: 100%;
+}
+
+.sec-8 .card1 p2 {
+    position: absolute;
+width: 46px;
+height: 12px;
+left: 80px;
+top: 450px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+
+}
+
+.sec-8 .card1 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 80px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-8 .card1 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 155px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-8 .card2 {
+    position: absolute;
+width: 328px;
+height: 519px;
+left: 556px;
+top: 5206px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-8 .card2 img {
+    position: absolute;
+width: 312px;
+height: 226px;
+left: 8px;
+top: 8px;
+border-radius: 10px;
+}
+
+.sec-8 .card2 p {
+    position: absolute;
+width: 286px;
+height: 56px;
+left: 21px;
+top: 265px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+}
+
+.sec-8 .card2 p1 {
+    position: absolute;
+    width: 248px;
+    height: 75px;
+    left: 22px;
+    top: 339px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-8 .card2 .img1 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 440px;
+    border-radius: 100%;
+}
+
+.sec-8 .card2 p2 {
+    position: absolute;
+width: 46px;
+height: 12px;
+left: 80px;
+top: 450px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+
+}
+
+.sec-8 .card2 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 80px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-8 .card2 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 155px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-8 .card3 {
+    position: absolute;
+width: 328px;
+height: 519px;
+left: 930px;
+top: 5206px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-8 .card3 img {
+    position: absolute;
+width: 312px;
+height: 226px;
+left: 8px;
+top: 8px;
+border-radius: 10px;
+}
+
+.sec-8 .card3 p {
+    position: absolute;
+width: 266px;
+height: 56px;
+left: 21px;
+top: 265px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+}
+
+.sec-8 .card3 p1 {
+    position: absolute;
+    width: 248px;
+    height: 75px;
+    left: 22px;
+    top: 349px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-8 .card3 .img1 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 440px;
+    border-radius: 100%;
+}
+
+.sec-8 .card3 p2 {
+    position: absolute;
+width: 46px;
+height: 12px;
+left: 80px;
+top: 450px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+
+}
+
+.sec-8 .card3 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 80px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-8 .card3 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 155px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-8 .card4 {
+    position: absolute;
+width: 328px;
+height: 519px;
+left: 183px;
+top: 5745px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-8 .card4 img {
+    position: absolute;
+width: 312px;
+height: 226px;
+left: 8px;
+top: 8px;
+border-radius: 10px;
+}
+
+.sec-8 .card4 p {
+    position: absolute;
+width: 266px;
+height: 56px;
+left: 21px;
+top: 265px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+}
+
+.sec-8 .card4 p1 {
+    position: absolute;
+    width: 248px;
+    height: 75px;
+    left: 22px;
+    top: 349px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-8 .card4 .img1 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 440px;
+    border-radius: 100%;
+}
+
+.sec-8 .card4 p2 {
+    position: absolute;
+width: 46px;
+height: 12px;
+left: 80px;
+top: 450px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+
+}
+
+.sec-8 .card4 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 80px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-8 .card4 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 155px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-8 .card5 {
+    position: absolute;
+width: 328px;
+height: 519px;
+left: 556px;
+top: 5745px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-8 .card5 img {
+    position: absolute;
+width: 312px;
+height: 226px;
+left: 8px;
+top: 8px;
+border-radius: 10px;
+}
+
+.sec-8 .card5 p {
+    position: absolute;
+width: 236px;
+height: 56px;
+left: 21px;
+top: 265px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+}
+
+.sec-8 .card5 p1 {
+    position: absolute;
+    width: 248px;
+    height: 75px;
+    left: 22px;
+    top: 349px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-8 .card5 .img1 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 440px;
+    border-radius: 100%;
+}
+
+.sec-8 .card5 p2 {
+    position: absolute;
+width: 46px;
+height: 12px;
+left: 80px;
+top: 450px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+
+}
+
+.sec-8 .card5 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 80px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-8 .card5 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 155px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-8 .card6 {
+    position: absolute;
+width: 328px;
+height: 519px;
+left: 930px;
+top: 5745px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-8 .card6 img {
+    position: absolute;
+width: 312px;
+height: 226px;
+left: 8px;
+top: 8px;
+border-radius: 10px;
+}
+
+.sec-8 .card6 p {
+    position: absolute;
+width: 236px;
+height: 56px;
+left: 21px;
+top: 265px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+}
+
+.sec-8 .card6 p1 {
+    position: absolute;
+    width: 248px;
+    height: 75px;
+    left: 22px;
+    top: 349px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-8 .card6 .img1 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 440px;
+    border-radius: 100%;
+}
+
+.sec-8 .card6 p2 {
+    position: absolute;
+width: 46px;
+height: 12px;
+left: 80px;
+top: 450px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+
+}
+
+.sec-8 .card6 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 80px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-8 .card6 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 155px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+
+.rectangle-6 {
+    position: absolute;
+width: 3px;
+height: 25px;
+left: 184px;
+top: 6325px;
+
+background: #C4C4C4;
+}
+
+.rectangle-6 p {
+    position: absolute;
+width: 146px;
+height: 30px;
+left: 8px;
+top: -2px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.rectangle-6 button {
+    position: absolute;
+width: 85px;
+height: 28px;
+left: 973px;
+top: 0px;
+border: none;
+background: #E2E8F0;
+border-radius: 7px;
+}
+
+.sec-9 .card1 {
+    position: absolute;
+width: 527px;
+height: 312px;
+left: 183px;
+top: 6412px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-9 .card1 img {
+    position: absolute;
+    width: 200px;
+    height: 274px;
+    left: 8px;
+    top: 8px;
+    border-radius: 5px;
+}
+
+.sec-9 .card1 p {
+    position: absolute;
+width: 246px;
+height: 113px;
+left: 238px;
+top: 8px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.sec-9 .card1 p1 {
+    position: absolute;
+width: 264px;
+height: 75px;
+left: 240px;
+top: 120px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-9 .card1 .img4 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 238px;
+    top: 232px;
+    border-radius: 100%;
+}
+
+.sec-9 .card1 p2 {
+    position: absolute;
+width: 66px;
+height: 12px;
+left: 302px;
+top: 244px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-9 .card1 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 302px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-9 .card1 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 380px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-9 .card2 {
+    position: absolute;
+width: 528px;
+height: 312px;
+left: 730px;
+top: 6412px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-9 .card2 img {
+    position: absolute;
+    width: 200px;
+    height: 274px;
+    left: 8px;
+    top: 8px;
+    border-radius: 5px;
+}
+
+.sec-9 .card2 p {
+    position: absolute;
+width: 246px;
+height: 113px;
+left: 238px;
+top: 8px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.sec-9 .card2 p1 {
+    position: absolute;
+width: 264px;
+height: 75px;
+left: 240px;
+top: 120px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-9 .card2 .img4 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 238px;
+    top: 232px;
+    border-radius: 100%;
+}
+
+.sec-9 .card2 p2 {
+    position: absolute;
+width: 66px;
+height: 12px;
+left: 302px;
+top: 244px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-9 .card2 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 302px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-9 .card2 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 380px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-9 .card3 {
+    position: absolute;
+width: 527px;
+height: 312px;
+left: 183px;
+top: 6743px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-9 .card3 img {
+    position: absolute;
+    width: 200px;
+    height: 274px;
+    left: 8px;
+    top: 8px;
+    border-radius: 5px;
+}
+
+.sec-9 .card3 p {
+    position: absolute;
+width: 246px;
+height: 113px;
+left: 238px;
+top: 8px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.sec-9 .card3 p1 {
+    position: absolute;
+width: 264px;
+height: 75px;
+left: 240px;
+top: 120px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-9 .card3 .img4 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 238px;
+    top: 232px;
+    border-radius: 100%;
+}
+
+.sec-9 .card3 p2 {
+    position: absolute;
+width: 66px;
+height: 12px;
+left: 302px;
+top: 244px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-9 .card3 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 302px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-9 .card3 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 380px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-9 .card4 {
+    position: absolute;
+width: 527px;
+height: 312px;
+left: 731px;
+top: 6743px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-9 .card4 img {
+    position: absolute;
+    width: 200px;
+    height: 274px;
+    left: 8px;
+    top: 8px;
+    border-radius: 5px;
+}
+
+.sec-9 .card4 p {
+    position: absolute;
+width: 246px;
+height: 113px;
+left: 238px;
+top: 8px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.sec-9 .card4 p1 {
+    position: absolute;
+width: 264px;
+height: 75px;
+left: 240px;
+top: 120px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-9 .card4 .img4 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 238px;
+    top: 232px;
+    border-radius: 100%;
+}
+
+.sec-9 .card4 p2 {
+    position: absolute;
+width: 66px;
+height: 12px;
+left: 302px;
+top: 244px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-9 .card4 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 302px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-9 .card4 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 380px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-9 .card5 {
+    position: absolute;
+width: 527px;
+height: 312px;
+left: 183px;
+top: 7074px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-9 .card5 img {
+    position: absolute;
+    width: 200px;
+    height: 274px;
+    left: 8px;
+    top: 8px;
+    border-radius: 5px;
+}
+
+.sec-9 .card5 p {
+    position: absolute;
+width: 246px;
+height: 113px;
+left: 238px;
+top: 8px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.sec-9 .card5 p1 {
+    position: absolute;
+width: 264px;
+height: 75px;
+left: 240px;
+top: 120px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-9 .card5 .img4 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 238px;
+    top: 232px;
+    border-radius: 100%;
+}
+
+.sec-9 .card5 p2 {
+    position: absolute;
+width: 66px;
+height: 12px;
+left: 302px;
+top: 244px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-9 .card5 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 302px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-9 .card5 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 380px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-9 .card6 {
+    position: absolute;
+width: 527px;
+height: 312px;
+left: 730px;
+top: 7074px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.sec-9 .card6 img {
+    position: absolute;
+    width: 200px;
+    height: 274px;
+    left: 8px;
+    top: 8px;
+    border-radius: 5px;
+}
+
+.sec-9 .card6 p {
+    position: absolute;
+width: 246px;
+height: 113px;
+left: 238px;
+top: 8px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.sec-9 .card6 p1 {
+    position: absolute;
+width: 264px;
+height: 75px;
+left: 240px;
+top: 120px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+color: rgba(0, 0, 0, 0.76);
+}
+
+.sec-9 .card6 .img4 img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 238px;
+    top: 232px;
+    border-radius: 100%;
+}
+
+.sec-9 .card6 p2 {
+    position: absolute;
+width: 66px;
+height: 12px;
+left: 302px;
+top: 244px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+
+.sec-9 .card6 p3 {
+    position: absolute;
+width: 65px;
+height: 12px;
+left: 302px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-9 .card6 p4 {
+    position: absolute;
+width: 25px;
+height: 12px;
+left: 380px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.38);
+}
+
+.sec-10 {
+    position: absolute;
+width: 1075px;
+height: 297px;
+left: 183px;
+top: 7498px;
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.sec-10 p {
+    position: absolute;
+width: 337px;
+height: 31px;
+left: 381px;
+top: 46px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.sec-10 p1 {
+    position: absolute;
+width: 459px;
+height: 26px;
+left: 310px;
+top: 99px;
+
+font-family: 'Hind';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #000000;
+}
+
+.sec-10 .box {
+    position: absolute;
+width: 306px;
+height: 42px;
+left: 370px;
+top: 164px;
+
+background: #E2E8F0;
+border-radius: 3px;
+}
+
+.sec-10 .box p {
+    position: absolute;
+width: 101px;
+height: 18px;
+left: 16px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #8295AD;
+}
+
+.sec-10 button {
+    position: absolute;
+width: 151px;
+height: 48px;
+left: 445px;
+top: 230px;
+
+background: #667EEA;
+border-radius: 30px;
+border: none;
+
+font-family: 'Hind';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+
+}
+
+.foot {
+    display: inline;
+    position: absolute;
+width: 1517px;
+height: 257px;
+left: 0px;
+top: 7912px;
+
+background: #FFFFFF;
+}
+
+.foot img {
+    position: absolute;
+width: 141px;
+height: 32px;
+left: 188px;
+top: 59px;
+}
+
+.foot p {
+    position: absolute;
+width: 194px;
+height: 26px;
+left: 188px;
+top: 100px;
+
+font-family: 'Hind';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: rgba(0, 0, 0, 0.48);
+}
+
+.foot p1 {
+    position: absolute;
+width: 119px;
+height: 24px;
+left: 550px;
+top: 59px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+
+.foot p2 {
+    position: absolute;
+width: 119px;
+height: 24px;
+left: 850px;
+top: 59px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+
+.foot p3 {
+    position: absolute;
+width: 119px;
+height: 24px;
+left: 1150px;
+top: 59px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+
+.foot .li-1 {
+    position: absolute;
+    left: 560px;
+    top: 99px;
+    font-family: 'Hind';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+color: rgba(0, 0, 0, 0.48);
+list-style: none;
+}
+
+.foot .li-2 {
+    position: absolute;
+    left: 860px;
+    top: 99px;
+    font-family: 'Hind';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+color: rgba(0, 0, 0, 0.48);
+list-style: none;
+}
+
+.foot .li-3 {
+    position: absolute;
+    left: 1160px;
+    top: 99px;
+    font-family: 'Hind';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+color: rgba(0, 0, 0, 0.48);
+list-style: none;
+}

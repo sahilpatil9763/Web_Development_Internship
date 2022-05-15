@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar Section */
+
+nav{
+    height: 4.5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem
+}
+
+.logo{
+    width: 18%;
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+.nav-list{
+    width: 30%;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 0.7rem;
+    letter-spacing: 2.4px;
+}
+
+.invite button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+button{
+    padding: 0.8rem 1.2rem;
+}
+
+/* First Grid Section */
+
+.first-sec{
+    display: grid;
+    grid-template-columns: 42% 58%;
+}
+
+.content-1{
+    background-color: rgb(0, 0, 0);
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+}
+
+.content-1-box{
+     width: 80%;
+     /* margin: auto; */
+     margin: 25% 13%;
+     border-left: 2px linear-gradient(0.6deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+}
+
+.content-1-box h1{
+    font-size: 2.5rem;
+    font-weight: 950;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    color: white;
+    width: 90%;
+}
+
+.content-1-box p{
+    margin-top: 2.1rem;
+    font-weight: bold;
+    /* letter-spacing: 0.5px; */
+    line-height: 1.5;
+    color: #909090;
+    margin-bottom: 3rem;
+    font-size: 0.9rem;
+    width: 85%;
+}
+
+span{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 950;
+    letter-spacing: 2px;
+    color: white;
+    margin-right: 1rem;
+    
+}
+
+
+.vertical-gradient-box {
+    position: absolute;
+    top: 0;
+    height: 6px;
+    width: 19.8rem;
+    background-image: linear-gradient(0.6deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    transform: rotate(90deg);
+    margin-top: 23rem;
+    margin-left: -9.5rem;
+}
+
+/* Second Grid Section */
+
+.second-sec{
+    display: grid;
+    grid-template-columns: 58% 42%;
+}
+
+.second-sec{
+    background-color: white;
+}
+
+/* .content-2-box h1{
+    color: black;
+    font-weight: bold;
+    font-size: 2.6666666667rem;
+    line-height: 48px;
+    letter-spacing: -1px;
+} */
+
+.content-2-box h1 {
+    font-size: 2.5rem;
+    font-weight: 950;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    color: black;
+    width: 59%;
+}
+
+.content-2-box p{
+    font-weight: normal;
+}
+
+.content-2-box span{
+    color: black;
+}
+
+.content-2-box img{
+    color: black;
+}
+
+/* Third Grid Section */
+
+.third-sec{
+    display: grid;
+    grid-template-columns: 58% 42%;
+}
+
+.third-sec{
+    background-color: white;
+}
+
+.content-3-box h1 {
+    font-size: 2.5rem;
+    font-weight: 950;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    color: black;
+    width: 59%;
+}
+
+.content-3-box p{
+    font-weight: normal;
+}
+
+.content-3-box span{
+    color: black;
+}
+
+.content-3-box img{
+    color: black;
+}
+
+/* Image Section */
+
+.img-sec{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 50%;
+    margin-top: -5px;
+}
+
+.sub-img{
+    height: 80%;
+    width: 100%;
+    
+}
+
+.sub-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    position: relative;
+    left: 11.43%;
+    right: 11.43%;
+    bottom: 4rem;
+    color: white;
+    /* margin-top: 10rem; */
+}
+
+.card img {
+    position: relative;
+    left: 11.43%;
+    right: 11.43%;
+    width: 43px;
+    height: 14px;
+    color: white;
+}
+
+.card h3 {
+
+
+}
+
+.card p {
+
+}
+
+.card span {
+
+}
